@@ -29,7 +29,7 @@ textarea {
   margin: 0; /* 2 */
   padding: 0;
   border: none;
-  outline: none;  
+  outline: none;
   background: transparent;
 }
 
@@ -39,7 +39,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -49,7 +50,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -58,12 +60,11 @@ select { /* 1 */
  */
 
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
 }
-
 
 li {
   list-style: none;
@@ -79,4 +80,3 @@ li {
   color: $grey;
   font-weight: $fontWeight;
 }
-

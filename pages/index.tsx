@@ -43,7 +43,7 @@ export default function Home() {
               </div>
               <button className="banner-button">{t('banner_button')}</button>
             </div>
-            <div className="banner-bottom">
+            <div className="banner-bottom-clients">
               {clients.map((el) => {
                 return (
                   <Image
