@@ -1,0 +1,74 @@
+@import '@/styles/media.scss';
+
+.collpase-wrapper {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  display: inline-block;
+
+  &:hover {
+    overflow: visible;
+    color: $black;
+  }
+  &:hover .collpase-menu {
+    z-index: 9999;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    visibility: visible;
+    color: $grey;
+  }
+
+  .collpase-menu {
+    position: absolute;
+    pointer-events: none;
+    min-width: auto;
+    padding: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 12px 60px rgb(14 32 66 / 15%), 0 1px 2px rgb(14 32 66 / 5%);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .collpase-left {
+    left: 0;
+  }
+
+  .collpase-right {
+    right: 0;
+  }  
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    &:hover {
+      background: #f9f9f9;
+      border-radius: 4px;
+    }
+  }
+
+  .menu-item__icon {
+    margin-right: 12px;
+  }
+
+  .menu-item__text {
+    flex: 1;
+    .title {
+      display: flex;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      margin-bottom: 2px;
+      white-space: nowrap;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+@import 'constant.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: HarmonyOS Sans, PingFang SC, Microsoft Yahei, Heiti SC,
+    WenQuanYi Micro Hei, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  font-size: 14px;
+}
+
+b,
+em,
+i,
+strong {
+  font-style: normal;
+  font-weight: 400;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0; /* 2 */
+  padding: 0;
+  border: none;
+  outline: none;  
+  background: transparent;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+
+li {
+  list-style: none;
+}
+
+.mr12 {
+  margin-right: 12px;
+}
+
+.snap-app {
+  background-color: $white;
+  font-size: $fontSize;
+  color: $grey;
+  font-weight: $fontWeight;
+}
+

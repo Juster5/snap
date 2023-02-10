@@ -1,0 +1,39 @@
+@import '@/styles/media.scss';
+
+.dropdown-menu {
+  width: 100%;
+  .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 52px;
+    .menu-item-title {
+      flex: 1;
+      font-size: 18px;
+    }
+    .menu-arrow {
+      transition: all 0.5s ease;
+      color: $grey;
+    }
+  }
+  .expand {
+    .sub-item-wrapper {
+      display: block;
+    }
+    .menu-arrow {
+      transform: rotate(-180deg);
+    }
+  }
+  .sub-item-wrapper {
+    display: none;
+    padding: 4px 0 4px 12px;
+    transition: max-height 0.5s ease;
+    transition: max-height 0.3s linear;
+    overflow: hidden;
+    .sub-item {
+      display: flex;
+      align-items: center;
+      height: 44px;
+    }
+  }
+}

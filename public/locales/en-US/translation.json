@@ -1,0 +1,22 @@
+{
+  "header_features": "Features",
+  "header_todo-list": "Todo List",
+  "header_calendar": "Calendar",
+  "header_reminders": "Reminders",
+  "header_planning": "Planning",
+  "header_company": "Company",
+  "header_history": "History",
+  "header_our-team": "Our Team",
+  "header_blog": "Blog",
+  "header_careers": "Carrers",
+  "header_about": "About",
+
+  "common_login": "Login",
+  "common_register": "Register",
+
+  "banner_title_1": "Make",
+  "banner_title_2": "remote work",
+  "banner_desc_1": "Get your team in asyc, no matter your location.",
+  "banner_desc_2": "Streamline processes, create team rituals, and watch your productivity soar",
+  "banner_button": "Learn More"
+}

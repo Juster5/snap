@@ -1,0 +1,36 @@
+@import '@/styles/media.scss';
+
+.drawer-mask {
+  z-index: 9999;
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.6);
+  &.show {
+    display: block;
+  }
+}
+
+.drawer-wrapper {
+  z-index: 10000;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 60%;
+  height: 100%;  
+  padding: 38px 24px;
+  background-color: $white;
+  overflow: auto;
+  transform: translateX(0);
+  transition: all 0.5s ease;
+
+  &.show {
+    transform: translateX(-100%);
+  }
+  .close-warpper {
+    text-align: right;
+  }
+}

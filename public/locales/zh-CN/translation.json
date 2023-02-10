@@ -1,0 +1,22 @@
+{
+  "header_features": "特性",
+  "header_todo-list": "代办列表",
+  "header_calendar": "日历",
+  "header_reminders": "提醒事项",
+  "header_planning": "计划",
+  "header_company": "企业",
+  "header_history": "历史",
+  "header_our-team": "团队",
+  "header_blog": "博客",
+  "header_careers": "事业",
+  "header_about": "关于我们",
+
+  "common_login": "登录",
+  "common_register": "注册",
+
+  "banner_title_1": "获取",
+  "banner_title_2": "远程工作",
+  "banner_desc_1": "无论在哪里, 都能同步你的团队",
+  "banner_desc_2": "简化流程，创建团队惯例，生产力飙升",
+  "banner_button": "了解更多"
+}

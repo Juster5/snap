@@ -1,0 +1,7 @@
+@import '@/styles/media.scss';
+
+.snap-app {
+  @include responsive(sm) {
+    padding-top: 48px;
+  }
+}

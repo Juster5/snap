@@ -1,0 +1,79 @@
+@import '@/styles/media.scss';
+
+.snap-header {
+  z-index: 9999;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 24px;
+  background-color: #fff;
+
+  .pc-navs {
+    display: none;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+    .nav-item {
+      position: relative;
+      display: flex;
+      padding: 0 10px;
+      align-items: center;
+      height: 100%;
+      cursor: pointer;
+      &:hover {
+        .title-arrow {
+          transform: rotate(-180deg);
+          margin-left: 12px;
+        }
+      }
+    }
+    .title-arrow {
+      margin-left: 12px;
+      transition: all 0.1s ease;
+    }
+  }
+
+  .logo-wrapper {
+    margin-right: 24px;
+    font-size: 32px;
+    font-weight: 600;
+    cursor: pointer;
+    color: $black;
+  }
+
+  .languages {
+    display: none;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 100%;
+  }
+}
+
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  .mr12 {
+    margin-right: 12px;
+  }
+
+  .login {
+    display: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .signup {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 1px solid #121212;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+}
