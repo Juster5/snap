@@ -14,11 +14,6 @@ const nextConfig = {
     hideSourceMaps: true,
   },
 
-  // 图片域名白名单
-  images: {
-    domains: ['static.okx.com','static.coinall.ltd'],
-  },
-
   // webpack config
   webpack(config) {
     config.module.rules.forEach(rule => {
