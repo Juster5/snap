@@ -19,7 +19,7 @@ https://snap-gold.vercel.app/
 - In addition, I add an internalization feature with Chinese
 
 ### Project Structure
-index page: /pages/index.tsx
+homepage: /pages/index.tsx
 
 
 
