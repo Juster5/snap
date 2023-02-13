@@ -5,6 +5,7 @@ import Cookies from 'js-cookie'
 import { useCallback, useContext } from 'react'
 import { useTranslation } from 'react-i18next'
 import { langs, menus } from 'common/constant'
+import Image from 'next/image'
 
 import CollpaseMenu from '../../CollapseMenu'
 import { GloablContext } from '../../GloablContextProvider'
@@ -44,7 +45,13 @@ const PCHeader: NextPage = () => {
               <div className="nav-item">
                 <span>{t(el.title)}</span>
                 {el.children && el.children.length > 0 && (
-                  <span className="title-arrow okx-header-footer-arrow-chevrons-down"></span>
+                  <Image
+                    className="title-arrow"
+                    src="/images/icon-arrow-down.svg"
+                    width={15}
+                    height={9}
+                    alt="arrow-down"
+                  />
                 )}
               </div>
             </CollpaseMenu>
