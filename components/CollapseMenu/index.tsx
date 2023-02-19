@@ -25,17 +25,17 @@ const CollpaseMenu: React.FC<CollpaseMenuProps> = ({
   const { t } = useTranslation()
 
   return (
-    <div className="collpase-wrapper">
+    <menu className="collpase-wrapper">
       {children}
 
       {/* menu ui */}
       {menu && menu.length > 0 && (
-        <div
+        <ul
           className={`collpase-menu collpase-${position ? position : 'left'}`}
         >
           {menu?.map((el, index) => {
             return (
-              <div
+              <li
                 className="menu-item"
                 key={index}
                 onClick={() => {
@@ -54,12 +54,12 @@ const CollpaseMenu: React.FC<CollpaseMenuProps> = ({
                 <div className="menu-item__text">
                   <div className="title">{t(el.title)}</div>
                 </div>
-              </div>
+              </li>
             )
           })}
-        </div>
+        </ul>
       )}
-    </div>
+    </menu>
   )
 }
 
