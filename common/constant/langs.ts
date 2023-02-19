@@ -12,6 +12,6 @@ export const langs = [
   },
 ]
 
-export const supportLangs = [ZH, EN]
+export const supportLangs = [EN, ZH]
 
 export const langPath = '/locale/[lang]/[size]'
