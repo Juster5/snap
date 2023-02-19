@@ -32,12 +32,14 @@ export default function Home() {
               <div className="banner-desc">
                 {responseSize === SM ? (
                   <p>
-                    {t('banner_desc_1')} {t('banner_desc_2')}
+                    {t('banner_desc_1')} {t('banner_desc_2')}{' '}
+                    {t('banner_desc_3')}
                   </p>
                 ) : (
                   <>
                     <p>{t('banner_desc_1')}</p>
                     <p>{t('banner_desc_2')}</p>
+                    <p>{t('banner_desc_3')}</p>
                   </>
                 )}
               </div>

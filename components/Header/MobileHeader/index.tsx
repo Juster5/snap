@@ -51,7 +51,7 @@ const MobileHeader: NextPage = () => {
   }, [])
 
   return (
-    <>
+    <div className="snap-mobile-header">
       {/* logo */}
       <div className="logo-wrapper">snap</div>
 
@@ -95,7 +95,7 @@ const MobileHeader: NextPage = () => {
           <span className="register">{t('common_register')}</span>
         </div>
       </Drawer>
-    </>
+    </div>
   )
 }
 

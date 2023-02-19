@@ -15,9 +15,7 @@ const Header: NextPage = () => {
 
   return (
     <>
-      <header className="snap-header">
-        {responseSize === SM ? <MobileHeader /> : <PCHeader />}
-      </header>
+      <header>{responseSize === SM ? <MobileHeader /> : <PCHeader />}</header>
     </>
   )
 }

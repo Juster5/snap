@@ -1,8 +1,8 @@
 @import '@/styles/media.scss';
 
-.snap-header {
+.snap-pc-header {
+  margin-top: 12px;
   z-index: 9999;
-  padding: 0 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,8 +38,8 @@
 
   .logo-wrapper {
     margin-right: 24px;
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 700;
     cursor: pointer;
     color: $black;
   }
@@ -58,11 +58,9 @@
 .login-wrapper {
   display: flex;
   align-items: center;
-  .mr12 {
-    margin-right: 12px;
-  }
 
   .login {
+    margin-right: 30px;
     display: none;
     display: inline-block;
     cursor: pointer;
@@ -70,7 +68,7 @@
 
   .signup {
     display: inline-block;
-    padding: 10px 16px;
+    padding: 8px 16px;
     border: 1px solid #121212;
     border-radius: 12px;
     cursor: pointer;

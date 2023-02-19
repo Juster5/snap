@@ -33,7 +33,7 @@ const PCHeader: NextPage = () => {
   }, [])
 
   return (
-    <>
+    <div className="snap-pc-header">
       {/* logo */}
       <div className="logo-wrapper">snap</div>
 
@@ -61,7 +61,7 @@ const PCHeader: NextPage = () => {
 
       {/* pc login area */}
       <div className="login-wrapper">
-        <span className="login mr12">{t('common_login')}</span>
+        <span className="login">{t('common_login')}</span>
         <span className="signup">{t('common_register')}</span>
       </div>
 
@@ -76,7 +76,7 @@ const PCHeader: NextPage = () => {
           <span className="okx-header-footer-language"></span>
         </div>
       </CollpaseMenu>
-    </>
+    </div>
   )
 }
 
