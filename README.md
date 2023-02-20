@@ -28,6 +28,6 @@ Vercel
 
 ### Project Structure
 
-homepage: /pages/index.tsx
-common components: /components
-common utils: /common
+- homepage: /pages/index.tsx
+- common components: /components
+- common utils: /common
