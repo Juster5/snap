@@ -4,6 +4,10 @@
 
 https://snap-gold.vercel.app/
 
+### Deploy
+
+Vercel
+
 ### Tech Stack
 
 - Next.js
@@ -25,3 +29,5 @@ https://snap-gold.vercel.app/
 ### Project Structure
 
 homepage: /pages/index.tsx
+common components: /components
+common utils: /common

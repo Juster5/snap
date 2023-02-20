@@ -52,7 +52,7 @@
       .banner-title {
         font-size: 80px;
         color: $black;
-        font-weight: 700;
+        font-weight: $fontWeightStrong;
 
         @include responsive(sm) {
           margin: 16px;
