@@ -3,7 +3,7 @@ import { getResponseSize } from 'common/util'
 // @ts-ignore
 import Cookies from 'js-cookie'
 import { checkLang } from 'common/util'
-import { SM } from 'common/constant'
+import { BG } from 'common/constant'
 
 type GloablContextProps = {
   children: any
@@ -33,7 +33,7 @@ const GloablContextProvider: React.FC<GloablContextProps> = ({
   defaultSize,
 }) => {
   const [lang, setLang] = useState(defaultLang || locale)
-  const [responseSize, setResponseSize] = useState(defaultSize || SM)
+  const [responseSize, setResponseSize] = useState(defaultSize || BG)
 
   // detect screen width
   const dective = useCallback(() => {
