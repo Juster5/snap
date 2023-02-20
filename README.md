@@ -22,9 +22,9 @@ Vercel
 
 ### Features
 
-- Responsitive with CSS media and JS detecting screen width
+- Responsitive by CSS media query and JS detecting screen width, Desktop first
 - SSR, SSG supported
-- In addition, I add an internalization feature with Chinese
+- In addition, I add an internalization feature with Chinese, You can switch languages with the buttons on the right
 
 ### Project Structure
 
