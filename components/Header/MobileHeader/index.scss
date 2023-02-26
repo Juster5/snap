@@ -1,23 +1,22 @@
 @import '@/styles/media.scss';
 
-.snap-header {
+.snap-mobile-header {
   z-index: 9999;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  padding: 0 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 60px;
+  width: 100%;
   padding: 0 24px;
   background-color: #fff;
 
   .logo-wrapper {
     margin-right: 24px;
     font-size: 32px;
-    font-weight: 600;
+    font-weight: $fontWeightStrong;
     cursor: pointer;
     color: $black;
   }

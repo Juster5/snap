@@ -1,25 +1,33 @@
 ## snap
 
 ### Online address
+
 https://snap-gold.vercel.app/
 
+### Deploy
+
+Vercel
+
 ### Tech Stack
+
 - Next.js
 - SASS
 - React-i18n
 - TypeScript
 
-### How to launch the project locally?
+### Launch project
+
 - yarn
 - yarn dev
 
 ### Features
-- Responsitive with CSS media and JS detecting screen width 
+
+- Responsitive by CSS media query and JS detecting screen width, Desktop first
 - SSR, SSG supported
-- In addition, I add an internalization feature with Chinese
+- In addition, I add an internalization feature with Chinese, You can switch languages with the buttons on the right
 
 ### Project Structure
-index page: /pages/index.tsx
 
-
-
+- homepage: /pages/index.tsx
+- common components: /components
+- common utils: /common

@@ -53,7 +53,13 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ menu, menuClick }) => {
             >
               <div className="menu-item-title">{t(el.title)}</div>
               {el.children && el.children.length > 0 && (
-                <div className="menu-arrow okx-header-footer-arrow-chevrons-down"></div>
+                <Image
+                  className="menu-arrow"
+                  src="/images/icon-arrow-down.svg"
+                  width={15}
+                  height={9}
+                  alt="arrow-down"
+                />
               )}
             </div>
 

@@ -8,8 +8,7 @@
 
 html,
 body {
-  font-family: HarmonyOS Sans, PingFang SC, Microsoft Yahei, Heiti SC,
-    WenQuanYi Micro Hei, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  font-family: Epilogue !important;
   font-size: 14px;
 }
 
@@ -18,7 +17,7 @@ em,
 i,
 strong {
   font-style: normal;
-  font-weight: 400;
+  font-weight: $fontWeight;
 }
 
 button,

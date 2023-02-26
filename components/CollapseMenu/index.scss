@@ -5,6 +5,7 @@
   height: 100%;
   overflow: hidden;
   display: inline-block;
+  font-size: 16px;
 
   &:hover {
     overflow: visible;
@@ -49,7 +50,7 @@
     height: 40px;
     background-color: #fff;
     cursor: pointer;
-    font-size: 24px;
+    // font-size: 24px;
     &:hover {
       background: #f9f9f9;
       border-radius: 4px;
@@ -65,7 +66,7 @@
     .title {
       display: flex;
       font-size: 14px;
-      font-weight: 500;
+      font-weight: $fontWeight;
       line-height: 20px;
       margin-bottom: 2px;
       white-space: nowrap;

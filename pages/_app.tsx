@@ -36,6 +36,7 @@ export default function MyApp(props: IProps) {
 
 MyApp.getInitialProps = ({ ctx }: any) => {
   let lang, responseSize
+
   const { req, query, pathname } = ctx
 
   if (pathname === langPath) {
